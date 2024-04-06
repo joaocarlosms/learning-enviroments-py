@@ -9,5 +9,6 @@ login = api.login(user, password)
 
 print(login)
 
+#difference between dev enviroment and prod enviroment
 if(enviroment_work == 'dev'):
     print(api.send_email_log())
